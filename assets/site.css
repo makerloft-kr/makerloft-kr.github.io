@@ -70,6 +70,21 @@ nav a { color: var(--ink); margin-left: 18px; font-weight: 600; font-size: 15px;
 .feat { padding-left: 18px; }
 .feat li { margin: 4px 0; }
 
+/* 복구 앱 소개 페이지 */
+.note { background: #fff7dd; border: 1px solid #f3dc8c; border-radius: 16px; padding: 20px 22px; color: #172033; }
+.note h2 { font-size: 20px; margin: 0 0 8px; }
+.note .muted, .note a { color: #4a4326; }
+.note a { text-decoration: underline; }
+.shot { margin: 18px 0 4px; }
+.shot img { display: block; width: 100%; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; }
+.muted { color: var(--dim); font-size: 14px; }
+.cmp { border-collapse: collapse; width: 100%; font-size: 15px; background: var(--card); }
+.cmp td, .cmp th { border: 1px solid var(--line); padding: 10px; text-align: left; vertical-align: top; }
+.faq h3 { font-size: 17px; margin: 20px 0 4px; }
+.faq p { margin: 0 0 6px; }
+.endcta { margin: 26px 0 0; }
+.doc .btn, .card .btn { color: #172033; }
+
 @media (max-width: 760px) {
   .grid3, .grid2 { grid-template-columns: 1fr; }
   .hero { padding: 52px 0 46px; }
